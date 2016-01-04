@@ -10,7 +10,7 @@ source ./venv/bin/activate
 letsencrypt install --installer nginx \
   -d letsencrypt.you \
   --cert-path /etc/letsencrypt/live/letsencrypt.you/cert.pem \
-  --key-path /etc/letsencrypt/live/letsencrypt.you/fullchain.pem \
+  --key-path /etc/letsencrypt/live/letsencrypt.you/privkey.pem \
   --chain-path /etc/letsencrypt/live/letsencrypt.you/chain.pem \
   --text --debug -vvvvvvv 
 
