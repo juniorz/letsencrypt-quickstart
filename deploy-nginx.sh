@@ -12,5 +12,6 @@ letsencrypt install --installer nginx \
   --cert-path /etc/letsencrypt/live/letsencrypt.you/cert.pem \
   --key-path /etc/letsencrypt/live/letsencrypt.you/privkey.pem \
   --chain-path /etc/letsencrypt/live/letsencrypt.you/chain.pem \
+  --fullchain-path /etc/letsencrypt/live/letsencrypt.you/fullchain.pem \
   --text --debug -vvvvvvv 
 
