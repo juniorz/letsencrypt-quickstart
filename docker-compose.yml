@@ -1,0 +1,9 @@
+client:
+  build: .
+  net: host
+  volumes:
+    - ../letsencrypt-client/:/home/letsencrypt/client
+    - ./confdir/:/etc/letsencrypt
+    - ./out/:/root/letsencrypt-quickstart
+  command: /bin/bash
+
