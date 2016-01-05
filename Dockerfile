@@ -35,6 +35,7 @@ COPY ./auth-and-install.sh /home/letsencrypt/bin/auth-and-install
 COPY ./certonly.sh /home/letsencrypt/bin/certonly
 COPY ./deploy-nginx.sh /home/letsencrypt/bin/deploy-nginx
 COPY ./run-cover.sh /home/letsencrypt/bin/run-cover
+COPY ./run-test.sh /home/letsencrypt/bin/run-test
 
 VOLUME /etc/letsencrypt
 VOLUME /home/letsencrypt/client
